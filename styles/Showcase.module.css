@@ -1,0 +1,31 @@
+.showcase {
+  background: url("../assets/image-3.jpg") no-repeat center/cover;
+  height: 400px;
+}
+
+.overlay {
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .showcase,
+  .overlay {
+    height: 600px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .showcase {
+    height: 100vh;
+  }
+
+  .overlay {
+    height: 100vh;
+  }
+}
